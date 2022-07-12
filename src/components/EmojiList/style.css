@@ -10,16 +10,20 @@
 
 .emoji-picker-react .emoji-group:before {
   content: attr(data-display-name);
-  color: #aaa;
+  color: rgb(222, 222, 221);
   font-size: 14px;
   position: sticky;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(21, 22, 23, 0.9);
   width: 100%;
   z-index: 1;
   top: 0;
   text-transform: uppercase;
   line-height: 45px;
   font-weight: 700;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .emoji-picker-react .emoji-group:after {
